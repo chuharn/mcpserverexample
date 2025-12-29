@@ -1,0 +1,20 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[[package]]
+name = "deepdive"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "mci" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "mci", extras = ["cli"], specifier = ">=1.1.1" }]
+
+[[package]]
+name = "mci"
+version = "1.1.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/4e/b5/e0bafde2e57c89333011ccfe9386b9d02a31c99dcaebfe4b76111c7ae6ae/mci-1.1.1.tar.gz", hash = "sha256:fb76ab1c26fcd7b35e6457af93f1a6d16023b77eed66eb0c051cad9395946799", size = 7754, upload-time = "2016-10-24T19:27:27.113Z" }

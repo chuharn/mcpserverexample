@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/deepdive.egg-info/PKG-INFO
+src/deepdive.egg-info/SOURCES.txt
+src/deepdive.egg-info/dependency_links.txt
+src/deepdive.egg-info/entry_points.txt
+src/deepdive.egg-info/requires.txt
+src/deepdive.egg-info/top_level.txt
+src/mcpserver/__init__.py
+src/mcpserver/__main__.py
+src/mcpserver/deployment.py
